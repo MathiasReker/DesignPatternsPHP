@@ -8,7 +8,6 @@ use DesignPatterns\Behavioral\Visitor\RecordingVisitor;
 use DesignPatterns\Behavioral\Visitor\User;
 use DesignPatterns\Behavioral\Visitor\Group;
 use DesignPatterns\Behavioral\Visitor\Role;
-use DesignPatterns\Behavioral\Visitor;
 use PHPUnit\Framework\TestCase;
 
 class VisitorTest extends TestCase
