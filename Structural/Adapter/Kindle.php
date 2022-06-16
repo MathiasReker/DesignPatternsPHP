@@ -15,7 +15,7 @@ class Kindle implements EBook
 
     public function pressNext()
     {
-        $this->page++;
+        ++$this->page;
     }
 
     public function unlock()

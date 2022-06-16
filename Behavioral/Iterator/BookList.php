@@ -48,7 +48,7 @@ class BookList implements Countable, Iterator
 
     public function next()
     {
-        $this->currentIndex++;
+        ++$this->currentIndex;
     }
 
     public function rewind()

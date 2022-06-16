@@ -13,7 +13,7 @@ class InMemoryPersistence implements Persistence
 
     public function generateId(): int
     {
-        $this->lastId++;
+        ++$this->lastId;
 
         return $this->lastId;
     }

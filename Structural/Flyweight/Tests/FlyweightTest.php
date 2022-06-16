@@ -18,7 +18,7 @@ class FlyweightTest extends TestCase
     {
         $factory = new TextFactory();
 
-        for ($i = 0; $i <= 10; $i++) {
+        for ($i = 0; $i <= 10; ++$i) {
             foreach ($this->characters as $char) {
                 foreach ($this->fonts as $font) {
                     $flyweight = $factory->get($char);

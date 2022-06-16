@@ -15,7 +15,7 @@ class PaperBook implements Book
 
     public function turnPage(): void
     {
-        $this->page++;
+        ++$this->page;
     }
 
     public function getPage(): int
