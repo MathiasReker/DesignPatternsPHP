@@ -6,9 +6,9 @@ namespace DesignPatterns\Creational\Builder;
 
 use DesignPatterns\Creational\Builder\Parts\Door;
 use DesignPatterns\Creational\Builder\Parts\Engine;
-use DesignPatterns\Creational\Builder\Parts\Wheel;
 use DesignPatterns\Creational\Builder\Parts\Truck;
 use DesignPatterns\Creational\Builder\Parts\Vehicle;
+use DesignPatterns\Creational\Builder\Parts\Wheel;
 
 class TruckBuilder implements Builder
 {

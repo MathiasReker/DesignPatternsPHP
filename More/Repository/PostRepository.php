@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DesignPatterns\More\Repository;
 
-use OutOfBoundsException;
 use DesignPatterns\More\Repository\Domain\Post;
 use DesignPatterns\More\Repository\Domain\PostId;
+use OutOfBoundsException;
 
 /**
  * This class is situated between Entity layer (class Post) and access object layer (Persistence).

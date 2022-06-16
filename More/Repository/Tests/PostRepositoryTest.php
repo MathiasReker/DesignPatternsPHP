@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DesignPatterns\More\Repository\Tests;
 
-use OutOfBoundsException;
+use DesignPatterns\More\Repository\Domain\Post;
 use DesignPatterns\More\Repository\Domain\PostId;
 use DesignPatterns\More\Repository\Domain\PostStatus;
 use DesignPatterns\More\Repository\InMemoryPersistence;
-use DesignPatterns\More\Repository\Domain\Post;
 use DesignPatterns\More\Repository\PostRepository;
+use OutOfBoundsException;
 use PHPUnit\Framework\TestCase;
 
 class PostRepositoryTest extends TestCase

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DesignPatterns\More\ServiceLocator;
 
-use OutOfRangeException;
 use InvalidArgumentException;
+use OutOfRangeException;
 
 class ServiceLocator
 {

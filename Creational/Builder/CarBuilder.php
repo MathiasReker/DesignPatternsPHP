@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Creational\Builder;
 
+use DesignPatterns\Creational\Builder\Parts\Car;
 use DesignPatterns\Creational\Builder\Parts\Door;
 use DesignPatterns\Creational\Builder\Parts\Engine;
-use DesignPatterns\Creational\Builder\Parts\Wheel;
-use DesignPatterns\Creational\Builder\Parts\Car;
 use DesignPatterns\Creational\Builder\Parts\Vehicle;
+use DesignPatterns\Creational\Builder\Parts\Wheel;
 
 class CarBuilder implements Builder
 {

@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Structural\Adapter\Tests;
 
-use DesignPatterns\Structural\Adapter\PaperBook;
 use DesignPatterns\Structural\Adapter\EBookAdapter;
 use DesignPatterns\Structural\Adapter\Kindle;
+use DesignPatterns\Structural\Adapter\PaperBook;
 use PHPUnit\Framework\TestCase;
 
 class AdapterTest extends TestCase

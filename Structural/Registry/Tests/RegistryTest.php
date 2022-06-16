@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Structural\Registry\Tests;
 
-use InvalidArgumentException;
 use DesignPatterns\Structural\Registry\Registry;
 use DesignPatterns\Structural\Registry\Service;
+use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
 class RegistryTest extends TestCase

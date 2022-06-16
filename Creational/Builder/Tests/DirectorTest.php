@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Creational\Builder\Tests;
 
+use DesignPatterns\Creational\Builder\CarBuilder;
+use DesignPatterns\Creational\Builder\Director;
 use DesignPatterns\Creational\Builder\Parts\Car;
 use DesignPatterns\Creational\Builder\Parts\Truck;
 use DesignPatterns\Creational\Builder\TruckBuilder;
-use DesignPatterns\Creational\Builder\CarBuilder;
-use DesignPatterns\Creational\Builder\Director;
 use PHPUnit\Framework\TestCase;
 
 class DirectorTest extends TestCase

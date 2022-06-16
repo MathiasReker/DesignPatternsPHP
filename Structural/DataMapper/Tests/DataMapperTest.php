@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Structural\DataMapper\Tests;
 
-use InvalidArgumentException;
 use DesignPatterns\Structural\DataMapper\StorageAdapter;
 use DesignPatterns\Structural\DataMapper\User;
 use DesignPatterns\Structural\DataMapper\UserMapper;
+use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
 class DataMapperTest extends TestCase

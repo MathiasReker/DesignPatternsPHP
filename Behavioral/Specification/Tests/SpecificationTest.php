@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DesignPatterns\Behavioral\Specification\Tests;
 
+use DesignPatterns\Behavioral\Specification\AndSpecification;
 use DesignPatterns\Behavioral\Specification\Item;
 use DesignPatterns\Behavioral\Specification\NotSpecification;
 use DesignPatterns\Behavioral\Specification\OrSpecification;
-use DesignPatterns\Behavioral\Specification\AndSpecification;
 use DesignPatterns\Behavioral\Specification\PriceSpecification;
 use PHPUnit\Framework\TestCase;
 
